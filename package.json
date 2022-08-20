@@ -1,0 +1,43 @@
+{
+    "name": "falcon",
+    "displayName": "Falcon",
+    "description": "Extention for Django, Html, Css and Javascript. Created By Abdurazzoq ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "publisher": "Abdurazzoq",
+    "author": {
+        "name": "Abdurazzoq Abdusalomov"
+    },
+    "homepage": "https://github.com/ABDURAZZOQ-ABDUSALOMOV/Falcon-Extention-pack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ABDURAZZOQ-ABDUSALOMOV/Falcon-Extention-pack"
+    },
+    "icon": "logo.webp",
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "falcon",
+        "Abdurazzoq",
+        "Django",
+        "Html",
+        "Css",
+        "Javascript"
+    ],
+    
+    "contributes": {
+        "snippets": [{
+                "language": "python",
+                "path": "./snippets/django.code-snippets"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.code-snippets"
+            }
+        ]
+    }
+}
+

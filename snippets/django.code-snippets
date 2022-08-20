@@ -1,0 +1,15 @@
+{
+    "Simple View": {
+        "prefix": "view",
+        "body": [
+            "def ${1:example}(render):",
+            "    return render(\"${1:example}.html\")"
+        ],
+        "description": "Simple View"
+    },
+    "Upper case": {
+        "prefix": "up",
+        "body": ["${1/.*/${0:/upcase}/}"],
+        "description": "Simple View"
+    },
+}
